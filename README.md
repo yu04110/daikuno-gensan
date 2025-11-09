@@ -1,11 +1,23 @@
 
-  # 大工のげんさんサイトデザイン
+ # 大工のげんさん 静的サイト
 
-  This is a code bundle for 大工のげんさんサイトデザイン. The original project is available at https://www.figma.com/design/qAQr5DLrnqyltffZgZ5CW3/%E5%A4%A7%E5%B7%A5%E3%81%AE%E3%81%92%E3%82%93%E3%81%95%E3%82%93%E3%82%B5%E3%82%A4%E3%83%88%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3.
+ 町の大工「げんさん」の紹介用ワンページサイトです。Vite/React 版から静的 HTML/CSS/JS へ作り替え、ブラウザで直接開くだけで閲覧できるように整備しました。元デザインはこちら：https://www.figma.com/design/qAQr5DLrnqyltffZgZ5CW3
 
-  ## Running the code
+ ## 使い方
 
-  Run `npm i` to install the dependencies.
+ 1. このリポジトリをダウンロードまたはクローンする
+ 2. `index.html` をブラウザで開く（ダブルクリックまたは Web サーバーに配置）
 
-  Run `npm run dev` to start the development server.
+ 追加のビルドや依存ライブラリは不要です。
+
+ ## 構成
+
+ - `index.html` … サイト本体
+ - `styles.css` … レスポンシブ対応のスタイル
+ - `main.js` … ナビ開閉やフォームのダミー送信制御など最小限の挙動
+ - `ATTRIBUTIONS.md` … 利用素材のクレジット
+
+ ## ライセンス
+
+ Unsplash の写真と元デザインで利用していた shadcn/ui のライセンスについては `ATTRIBUTIONS.md` をご覧ください。
   

@@ -14,7 +14,7 @@
  - `front-page.php` … トップページテンプレート
  - `index.php` … テーマ必須のバックアップテンプレート（front-page と同じ内容を出力）
  - `functions.php` … テーマサポート宣言と CSS/JS の読み込み
- - `styles.css` … テーマメタ情報とレスポンシブスタイル
+ - `style.css` … テーマメタ情報とレスポンシブスタイル
  - `main.js` … ナビ開閉やフォームのダミー送信制御など最小限の挙動
  - `ATTRIBUTIONS.md` … 利用素材のクレジット
 

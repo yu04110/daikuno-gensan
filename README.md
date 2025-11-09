@@ -1,19 +1,20 @@
 
- # 大工のげんさん 静的サイト
+ # 大工のげんさん WordPress テーマ
 
- 町の大工「げんさん」の紹介用ワンページサイトです。Vite/React 版から静的 HTML/CSS/JS へ作り替え、ブラウザで直接開くだけで閲覧できるように整備しました。元デザインはこちら：https://www.figma.com/design/qAQr5DLrnqyltffZgZ5CW3
+ 町の大工「げんさん」の紹介用ワンページデザインを WordPress テーマとして利用できるように整備しました。元デザインはこちら：https://www.figma.com/design/qAQr5DLrnqyltffZgZ5CW3
 
  ## 使い方
 
- 1. このリポジトリをダウンロードまたはクローンする
- 2. `index.html` をブラウザで開く（ダブルクリックまたは Web サーバーに配置）
-
- 追加のビルドや依存ライブラリは不要です。
+  1. このフォルダーを ZIP にまとめ、WordPress の `/wp-content/themes/` に配置するか、管理画面からアップロードしてください
+  2. 管理画面 → 外観 → テーマ で「Daikuno Gensan Static」を有効化します
+  3. 「設定」→「表示設定」でフロントページを固定ページにし、フロントページとして空のページを指定すると `front-page.php` が読み込まれます
 
  ## 構成
 
- - `index.html` … サイト本体
- - `styles.css` … レスポンシブ対応のスタイル
+ - `front-page.php` … トップページテンプレート
+ - `index.php` … テーマ必須のバックアップテンプレート（front-page と同じ内容を出力）
+ - `functions.php` … テーマサポート宣言と CSS/JS の読み込み
+ - `styles.css` … テーマメタ情報とレスポンシブスタイル
  - `main.js` … ナビ開閉やフォームのダミー送信制御など最小限の挙動
  - `ATTRIBUTIONS.md` … 利用素材のクレジット
 

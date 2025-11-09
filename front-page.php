@@ -1,8 +1,14 @@
-
+<?php
+/**
+ * Front page template for Daikuno Gensan theme.
+ *
+ * @package DaikunoGensan
+ */
+?>
 <!doctype html>
-<html lang="ja">
+<html <?php language_attributes(); ?>>
   <head>
-    <meta charset="utf-8" />
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
@@ -11,13 +17,14 @@
       name="description"
       content="地元密着の大工・げんさんの静的サイト。小さな修理からリフォームまで丁寧に対応します。"
     />
-    <title>大工のげんさん | 町の頼れる大工</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title><?php bloginfo( 'name' ); ?></title>
+    <?php wp_head(); ?>
   </head>
-  <body>
+  <body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="site-brand" href="#hero">大工のげんさん</a>
+        <a class="site-brand" href="#hero"><?php bloginfo( 'name' ); ?></a>
         <button
           class="menu-toggle"
           aria-label="メニューを開閉"
@@ -332,8 +339,6 @@
         </div>
       </div>
     </footer>
-
-    <script src="main.js" defer></script>
+    <?php wp_footer(); ?>
   </body>
 </html>
-  

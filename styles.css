@@ -1,3 +1,22 @@
+/*
+Theme Name: Daikuno Gensan
+Theme URI: https://blog.kyokutoh-design.com
+Author: yusuke
+Description: Static LP "Daikuno Gensan" converted to WordPress theme.
+Version: 1.0
+*/
+/*
+Theme Name: Daikuno Gensan Static
+Theme URI: https://example.com
+Author: Codex
+Author URI: https://example.com
+Description: 町の大工「げんさん」の紹介用ワンページをWordPress向けにしたシンプルテーマ
+Version: 1.0.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Text Domain: daikuno-gensan
+*/
+
 :root {
   --brown: #8b4513;
   --green: #2f5233;
